@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.MainActivity">
+
+
+
+
+    <!--
+    <EditText
+        android:id="@+id/noteNameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="5dp"
+        android:ems="10"
+        android:hint="@string/note_name"
+
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/noteDescriptionEditText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/noteDescriptionEditText"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="@string/note_description"
+        android:inputType="text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noteNameEditText" />
+
+    <Button
+        android:id="@+id/addNoteButton"
+        android:layout_width="190dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="23dp"
+        android:text="@string/button_add_text"
+        android:textSize="50px"
+        app:layout_constraintEnd_toStartOf="@+id/saveNoteButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/noteDescriptionEditText" />
+
+    <Button
+        android:id="@+id/saveNoteButton"
+        android:layout_width="190dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="4dp"
+        android:text="@string/button_edit_text"
+        android:textSize="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/addNoteButton"
+        app:layout_constraintTop_toBottomOf="@+id/noteDescriptionEditText" />
+
+    <Button
+        android:id="@+id/showNoteButton"
+        android:layout_width="396dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/button_random_text"
+        android:textSize="50px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/prevNoteImageButton" />
+
+    <ImageButton
+        android:id="@+id/prevNoteImageButton"
+        android:layout_width="185dp"
+        android:layout_height="56dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toStartOf="@+id/nextNoteImageButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addNoteButton"
+        app:srcCompat="@android:drawable/ic_media_previous" />
+
+    <ImageButton
+        android:id="@+id/nextNoteImageButton"
+        android:layout_width="190dp"
+        android:layout_height="54dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/prevNoteImageButton"
+        app:layout_constraintTop_toBottomOf="@+id/saveNoteButton"
+        app:srcCompat="@android:drawable/ic_media_next" />
+-->
+
+
+    <FrameLayout
+        android:id="@+id/listFrameLayout"
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
